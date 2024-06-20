@@ -111,7 +111,7 @@ p{
 
 input{
    position: fixed;
-  position: relative;
+ 
   margin-top: 100px; /* 根据需要调整 */
   width: 200px; /* 这里设置输入框的宽度 */
   padding: 10px;
