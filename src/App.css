@@ -70,8 +70,6 @@ p{
   height: 100vh; /* 使容器充满整个视口高度 */
   text-align: center;
   z-index: 1; /* 确保 app-container 在 canvas 之上 */
-
-
 }
 
 /* src/App.css */
@@ -111,9 +109,3 @@ input{
   box-sizing: border-box;
 
 }
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* 禁止整个页面滚动 */
-}
-
