@@ -17,6 +17,10 @@ const App = () => {
     setWords((prevWords) => [...prevWords, word]);
   };
 
+  const handleDeleteWord = (index) => {
+    setWords((prevWords) => prevWords.filter((_, i) => i !== index));
+  };
+
   return (
     <div className="app-container">
       <h1 onClick={handleClick}>{text}</h1>
@@ -28,8 +32,8 @@ const App = () => {
       <Timer />
 
       <div className="word-container">
-        {words.map((word, index) => (
-          <DraggableWord key={index} word={word} />
+      {words.map((word, index) => (
+          <DraggableWord key={index} word={word} onDelete={() => handleDeleteWord(index)} />
         ))}
       </div>
     </div>
