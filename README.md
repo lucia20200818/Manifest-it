@@ -1,5 +1,7 @@
 ### Project Title: Daily Goals Tracker under Dynamic Starry Sky
 
+https://manifestit2024.netlify.app/
+
 #### Overview
 This project is designed to provide users with a serene and engaging environment to track their daily goals against a backdrop of a dynamic starry sky. It features a timer to aid users in staying focused on their tasks. Built using React, JavaScript, CSS, and HTML, this application combines functionality with an aesthetically pleasing user experience.
 
@@ -31,15 +33,13 @@ To run the project locally, follow these steps:
 #### Contributing
 Contributions are welcome! If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
 
-#### License
-This project is licensed under the [MIT License](LICENSE).
+
 
 #### Acknowledgements
 - This project was inspired by the need for a serene yet functional daily goals tracker.
 - Special thanks to the creators of React and the various libraries used in this project.
 
-#### Contact
-For questions or feedback regarding this project, please contact [Your Name] at [your-email@example.com].
+
 
 ---
 
