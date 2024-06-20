@@ -45,24 +45,22 @@
 
 
 h1 {
-   position: fixed;
+  position: fixed;
 
-  width: 100%;
+ width: 100%;
+
  
-  
-  z-index: 1000; /* 确保在其他元素上面显示 */
+ z-index: 1000; /* 确保在其他元素上面显示 */
 
-  text-align: center;
-  margin-bottom: 20px; /* 与下方内容保持一定距离 */
-  font-family: 'Berkshire Swash', cursive; /* 设置 h1 标签的字体为 Berkshire Swash */
-  font-size: 100px; /* 设置字体大小 */
-  font-weight: normal; /* 设置字体粗细 */
-  color: #ffffff; /* 设置字体颜色 */
-  text-shadow: 50px 50px 0px rgba(188, 10, 10, 0); /* 添加文字背景框 */
+ text-align: center;
+ margin-bottom: 20px; /* 与下方内容保持一定距离 */
+ font-family: 'Berkshire Swash', cursive; /* 设置 h1 标签的字体为 Berkshire Swash */
+ font-size: 100px; /* 设置字体大小 */
+ font-weight: normal; /* 设置字体粗细 */
+ color: #ffffff; /* 设置字体颜色 */
+ text-shadow: 50px 50px 0px rgba(188, 10, 10, 0); /* 添加文字背景框 */
 }
-
 p{
-   position: fixed;
   color: #ffffff; /* 设置字体颜色 */
   font-family:  sans-serif;
   font-size: 25px;
@@ -83,7 +81,6 @@ p{
 /* src/App.css */
 
 .add-word-button {
-   position: fixed;
   font-family: 'Berkshire Swash', cursive;
   font-size: 16px;
   color: white;
@@ -99,7 +96,6 @@ p{
   background-color: #0056b3;  /* 悬停状态下的背景颜色 */
 }
 .word-container {
-   position: fixed;
   margin-top: 30px;
 }
 
@@ -107,12 +103,7 @@ p{
   color: #ffffff;
 }
 
-
-
 input{
-   position: fixed;
- 
-  margin-top: 100px; /* 根据需要调整 */
   width: 200px; /* 这里设置输入框的宽度 */
   padding: 10px;
   font-size: 16px;
