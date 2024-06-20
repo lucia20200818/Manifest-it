@@ -1,0 +1,14 @@
+.toggle-button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 30px;
+  font-family: "Candal", sans-serif;
+}
+
+.card{
+  background-color: #000000;
+}

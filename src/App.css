@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* 与下方内容保持一定距离 */
+  font-family: 'Berkshire Swash', cursive; /* 设置 h1 标签的字体为 Berkshire Swash */
+  font-size: 100px; /* 设置字体大小 */
+  font-weight: normal; /* 设置字体粗细 */
+  color: #ffffff; /* 设置字体颜色 */
+  text-shadow: 50px 50px 0px rgba(188, 10, 10, 0); /* 添加文字背景框 */
+}
+
+p{
+  color: #ffffff; /* 设置字体颜色 */
+  font-family:  sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使容器充满整个视口高度 */
+  text-align: center;
+  z-index: 1; /* 确保 app-container 在 canvas 之上 */
+}
+
+/* src/App.css */
+
+.add-word-button {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 16px;
+  color: white;
+  background-color: #7da0c7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-word-button:hover {
+  background-color: #0056b3;  /* 悬停状态下的背景颜色 */
+}
+.word-container {
+  margin-top: 30px;
+}
+
+.toggle-list {
+  color: #ffffff;
+}
+
+.draggable-word {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  font-family: 'Berkshire Swash', cursive;
+  font-size:35px;
+  border-radius: 3px;
+  color: white;
+}
+
+input{
+  width: 200px; /* 这里设置输入框的宽度 */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-sizing: border-box;
+
+}

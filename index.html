@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <!-- 预连接 Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 添加 Google Fonts 链接 -->
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manifest!</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden; /* 禁止页面滚动 */
+      }
+      .canvas-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -3; /* 将容器置于最底层 */
+      }
+      #canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+  
+    <div id="root">
+      <script type="module" src="/src/main.jsx">
+         const cursorAnimation = document.querySelector(".cursor");
+    const cursors = document.querySelectorAll(".cursor");
+
+    document.addEventListener("click", (e) => {
+
+      cursors.forEach((cursor) => {
+        
+      });
+    });
+      </script>
+    
+    
+  </body>
+</html>
