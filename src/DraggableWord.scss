@@ -46,3 +46,24 @@ $color: white;
       0 0 0 30px rgba($color, 0);
   }
 }
+
+.delete-word-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  color: rgb(2, 181, 251);
+  border: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-word-button:hover {
+  background: transparent
+}
