@@ -24,7 +24,7 @@ const InputForm = ({ onAddWord }) => {
   };
 
   return (
-    <div>
+    <div className="input-form">
       <input
         type="text"
         value={wordInput}

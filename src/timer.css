@@ -1,6 +1,8 @@
 /* timer.css */
 
 .timer-container {
+  position: fixed; /* 使用固定定位 */
+  top: 650px; /* 调整 top 属性 */
     display: flex;
     align-items: center;
     justify-content: center;
