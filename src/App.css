@@ -109,3 +109,9 @@ input{
   box-sizing: border-box;
 
 }
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 禁止整个页面滚动 */
+}
+
