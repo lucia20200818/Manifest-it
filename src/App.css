@@ -45,6 +45,13 @@
 
 
 h1 {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* 可选：为了让标题在滚动时更清晰可见 */
+  z-index: 1000; /* 确保在其他元素上面显示 */
+  padding: 10px 20px;
   text-align: center;
   margin-bottom: 20px; /* 与下方内容保持一定距离 */
   font-family: 'Berkshire Swash', cursive; /* 设置 h1 标签的字体为 Berkshire Swash */
