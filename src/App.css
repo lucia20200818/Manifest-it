@@ -70,6 +70,16 @@ p{
   height: 100vh; /* 使容器充满整个视口高度 */
   text-align: center;
   z-index: 1; /* 确保 app-container 在 canvas 之上 */
+
+   position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px; /* 左边栏的宽度 */
+  overflow-y: auto; /* 竖直方向滚动条 */
+  background-color: #f0f0f0;
+  padding: 20px;
+}
 }
 
 /* src/App.css */
